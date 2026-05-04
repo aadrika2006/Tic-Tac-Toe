@@ -1,0 +1,104 @@
+# Tic Tac Toe Game
+
+A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. This project demonstrates basic game logic, DOM manipulation, event handling, and responsive front-end design.
+
+## Project Overview
+
+Tic Tac Toe is a classic two-player game played on a 3x3 grid. One player uses X and the other player uses O. Players take turns marking empty cells, and the first player to place three marks in a row, column, or diagonal wins the game.
+
+This project is suitable for beginners who want to understand how JavaScript can be used to build interactive browser-based games.
+
+## Features
+
+- Two-player gameplay
+- Interactive 3x3 game board
+- Automatic turn switching between X and O
+- Win detection for rows, columns, and diagonals
+- Draw detection when all cells are filled
+- Reset button to restart the game
+- Simple and responsive user interface
+- Clear game status messages
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| HTML | Creates the structure of the game |
+| CSS | Styles the layout and user interface |
+| JavaScript | Handles game logic and user interactions |
+
+## How It Works
+
+1. The game starts with Player X.
+2. Players click on empty cells to place their mark.
+3. After every move, the game checks for a winning condition.
+4. If a player gets three marks in a row, column, or diagonal, the game declares the winner.
+5. If all cells are filled and no player wins, the game ends in a draw.
+6. The reset button allows players to start a new game.
+
+## Winning Conditions
+
+A player wins if their symbol appears in any of the following patterns:
+
+```javascript
+const winPatterns = [
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [0, 4, 8],
+  [2, 4, 6]
+];
+
+Folder Structure
+tic-tac-toe/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+Installation and Setup
+1. Clone the Repository
+git clone https://github.com/your-username/tic-tac-toe.git
+2. Open the Project Folder
+cd tic-tac-toe
+3. Run the Project
+
+Open the index.html file in your browser.
+
+You can also use the Live Server extension in VS Code.
+
+Usage
+Open the game in a browser.
+Player X starts first.
+Click on any empty cell to place your mark.
+Continue playing until a winner is declared or the game ends in a draw.
+Click the reset button to restart the game.
+Future Enhancements
+Add single-player mode
+Add AI opponent using the Minimax algorithm
+Add score tracking system
+Add sound effects
+Add winning animations
+Add dark mode
+Add difficulty levels
+Learning Outcomes
+
+Through this project, the following concepts are practiced:
+
+HTML page structure
+CSS styling and layout
+JavaScript arrays and functions
+DOM manipulation
+Event listeners
+Conditional statements
+Game state management
+Conclusion
+
+This Tic Tac Toe project is a beginner-friendly web development project that helps understand how HTML, CSS, and JavaScript work together to create an interactive game. It is a simple yet useful project for improving front-end development and problem-solving skills.
+
+Author
+
+Aadrika Awasthi
